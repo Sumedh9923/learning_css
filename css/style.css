@@ -1,8 +1,4 @@
-h3{
-    color: orange;
-    background-color: lightgray;
-    font-size: 40px;
-}
+/* Heading tags basic include color, bgcolor, font-size, font-family, text-decoration, text-transform, text-align, text-indent, line-height, word-spacing, letter-spacing, text-shadow. */
 h4{
     color: blue;
     background-color: lightyellow;
@@ -138,7 +134,8 @@ h4{
 /* positions types */
 .box_static{
     position: static;  
-    left: 200px;
+    /* left: 200px */
+    width: 200px;
 }
 .box_relative{
     position: relative;
@@ -152,12 +149,12 @@ h4{
 }   
 .box_sticky{
     position: sticky;
-    top: 10px;
+    top: 0;
+
 }
 .box_fixed{
     position: fixed;
-    right: 0px;
-    bottom: px;
-    top: 0px;
+    top: 10px;
+    right: 10px;
 }
 
