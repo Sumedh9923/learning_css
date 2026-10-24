@@ -158,3 +158,22 @@ h4{
     right: 10px;
 }
 
+/* flex */
+.flex-items{
+    background-color: burlywood;
+    width: 200px;
+    height: 180px ;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 10px;
+    border: 2px solid blue;
+    padding: 10px;
+    color: red;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
