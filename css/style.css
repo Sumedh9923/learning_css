@@ -169,6 +169,11 @@ h4{
     border: 2px solid blue;
     padding: 10px;
     color: red;
+    display: flex;
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
 }
 .flex-container{
     display: flex;
@@ -176,4 +181,33 @@ h4{
     flex-direction: row;
     justify-content: center;
     list-style: none;
+}
+
+.bg_img{
+    background-color: white;
+    background-image: url("../images/bird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.h1_color{
+    color: brown;
+}
+
+/* background */
+.linear{
+    height: 400px;
+    background: linear-gradient(orange,white,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radial{
+    height: 800px;
+    background: radial-gradient(circle ,white,blue,silver);
+    /* ellipse also used instead of circle */
+}
+.conic{
+    height: 500px;
+    background: conic-gradient(from 90deg, red,yellow,blue,brown)
 }
